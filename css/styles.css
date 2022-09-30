@@ -1,10 +1,10 @@
 /*
 BACKGROUND COLORS
-#03E658
-#29CC64
-#48B36E
-#58996C
-#62836A
+#03E658 (3, 230, 88)
+#29CC64 (41, 204, 100)
+#48B36E (72, 179, 110) 
+#58996C (88, 153, 108)
+#62836A (98, 131, 106)
 
 TEXT COLORS
 */
@@ -61,8 +61,8 @@ section{
 
 section.hero{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0)
       ), url("../img/grass.jpg");
     background-position: -25px;
     display: flex;
@@ -70,6 +70,14 @@ section.hero{
     align-items: center;
     
 }
+
+    section.hero #herocontent h1{
+        background-color: rgba(88, 153, 108, 0.5);
+        backdrop-filter: blur(30px);
+        padding: 20px 5px 20px 5px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.7);
+    }
 
 section.about{
     padding: 20px 30% 20px 30%;
