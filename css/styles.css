@@ -1,13 +1,25 @@
+/*
+BACKGROUND COLORS
+#03E658
+#29CC64
+#48B36E
+#58996C
+#62836A
+
+TEXT COLORS
+*/
+
 body{
     text-align: center;
     font-size: 1.5em;
     line-height: 1.75em;
+    color: rgb(200, 200, 200);
 }
 
 header{
     width: 100%;
     padding: 20px;
-    background-color: rgb(100, 100, 100);
+    background: linear-gradient(0deg, #29CC64, #58996C);
     display: flex;
     align-items: center;
 }
@@ -48,10 +60,15 @@ section{
 }
 
 section.hero{
-    background-color: rgb(200,200,200);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url("../img/grass.jpg");
+    background-position: -25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 section.about{
