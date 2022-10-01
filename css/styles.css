@@ -24,14 +24,16 @@ header{
     align-items: center;
 }
 
-button{
-    width: 300px;
-    height: 50px;
+.button{
+    padding: 10px 70px 10px 70px;
+    border-radius: 8px;
     background: linear-gradient(0deg, #62836A, #48B36E);
-    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.7)
 }
 
-button:hover{
+.button:hover{
     background: linear-gradient(0deg, #48B36E, #62836A);
 }
 
@@ -84,7 +86,7 @@ section.about{
 }
 
 section.services{
-    background-color: rgb(150,150,150);
+    background: url("../img/waterfall.jpg");
 }
 
     section.services .servicecontainer{
@@ -93,7 +95,12 @@ section.services{
     }
 
     section.services .servicemodule{
+        background-color: rgba(88, 153, 108, 0.8);
         width: 30%;
+        padding: 20px 5px 20px 5px;
+        border-radius: 10px;
+        backdrop-filter: blur(50px);
+        box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.7);
     }
 
 section.contact{
