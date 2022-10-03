@@ -29,7 +29,7 @@ header, footer{
     justify-content: space-between;
 }
 
-.button{
+button, .button{
     padding: 10px 70px 10px 70px;
     border-radius: 8px;
     background: linear-gradient(0deg, #62836A, #48B36E);
