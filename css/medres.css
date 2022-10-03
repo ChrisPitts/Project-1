@@ -1,16 +1,22 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
 
-section.about { background-position: 0px -1200px;}
+    section.hero #herocontent{ margin: 0 100px 0 100px;}
 
-section.services .servicecontainer{ display: block;}
-
-    section.services .servicemodule{
-           width: 100%;
-           display: flex;
-           margin: 10px 0px 10px 0px;
+    section.about { 
+        background-position: 0px -1500px;
+        padding: 20px 100px 20px 100px;
     }
 
-    section.services .servicemodulecontent{
-        padding: 5px;
-    }
+    section.services .servicecontainer{ display: block;}
+
+        section.services .servicemodule{
+            width: 100%;
+            display: flex;
+            margin: 10px 0px 10px 0px;
+        }
+
+        section.services .servicemodule img{ margin-left: 10px;}
+
+        section.services .servicemodulecontent{ padding: 10px;}
+
 }
