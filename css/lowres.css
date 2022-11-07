@@ -1,0 +1,14 @@
+@media screen and (max-width: 970px){
+    section.services .servicemodule{
+        display: block;
+    }
+
+    section.contact{
+        display: block;
+    }
+
+    section.contact div,
+    section.contact aside{
+        width: 100%;
+    }
+}

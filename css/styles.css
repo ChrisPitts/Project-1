@@ -148,3 +148,10 @@ section.contact{
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 970px){
+    .servicemodule{
+        display: block;
+        width: 70%;
+    }
+}
