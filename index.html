@@ -37,7 +37,11 @@
                 <h1>Orcas Island Irrigation Systems</h1>
             </div>
             <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
+                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="" src="https://via.placeholder.com/1000x700?text=Image1">
@@ -49,8 +53,9 @@
                         <img class="" src="https://via.placeholder.com/1000x700?text=Image3">
                     </div>
                 </div>
-                
             </div>
+            
+            
         </section><!--HERO-->
 
         <section class="about">
@@ -103,7 +108,7 @@
                     <input type="email" id="email" name="email" required>
                     <label for="Message">Message</label><br/>
                     <textarea id="message" name="message" required></textarea>
-                    <button type="submit">Submit</button>
+                    <button class="button" type="submit">Submit</button>
                 </form>
             </div><!--Form-->
             <aside class="contactinfo">
