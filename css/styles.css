@@ -117,7 +117,8 @@ section.contact{
     background: #62836A;
 }
 
-    section.contact div{ width: 40%;}
+    section.contact div,
+    section.contact aside{ width: 40%;}
 
     section.contact form{ text-align: left;}
 
