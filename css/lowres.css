@@ -1,4 +1,25 @@
 @media screen and (max-width: 970px){
+
+    body{
+        font-size: 1em;
+    }
+
+    /* h1, h3{
+        font-size: 1.5em;
+    } */
+
+    #herocontent{
+        margin: 0 20px 0 20px !important;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    #heroCarousel .carousel-item img{
+        width: 100%;
+    }
+
     section.services .servicemodule{
         display: block;
     }
@@ -11,4 +32,9 @@
     section.contact aside{
         width: 100%;
     }
+
+    section.contact .form{
+        margin-bottom: 20px;
+    }
+
 }
