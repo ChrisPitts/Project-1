@@ -20,6 +20,10 @@
         width: 100%;
     }
 
+    section.about{
+        padding: 20px 20px 20px 20px;
+    }
+
     section.services .servicemodule{
         display: block;
     }
