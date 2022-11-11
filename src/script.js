@@ -2,7 +2,10 @@
 
 function onLoad(event){
     
-    
+    let options = {
+        threshold: 0.5
+    };
+
     let timer = 0;
 
     let intersectionObserver = new IntersectionObserver(modules => {
@@ -18,7 +21,7 @@ function onLoad(event){
             }
         }
             
-    });
+    }, options);
 
     document.querySelectorAll('.animate').forEach(obj => {
         intersectionObserver.observe(obj);
