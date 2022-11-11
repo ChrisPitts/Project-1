@@ -67,7 +67,7 @@ section{
 }
 
 section.hero{
-    background: url("../img/grass.jpg");
+    background: url("../img/grass.webp");
     background-position:bottom;
     padding: 50px 0px 50px 0px;
     
@@ -91,11 +91,11 @@ section.hero{
 
 section.about{
     padding: 20px 20% 20px 20%;
-    background: linear-gradient(rgba(98, 131, 106, 0.5), rgba(98, 131, 106, 0.5)), url("../img/lawn.jpg");
+    background: linear-gradient(rgba(98, 131, 106, 0.5), rgba(98, 131, 106, 0.5)), url("../img/lawn.webp");
     background-position: 0px -1500px;
 }
 
-section.services{ background: url("../img/waterfall.jpg");}
+section.services{ background: url("../img/waterfall.webp");}
 
     section.services .servicecontainer{
         display: flex;
