@@ -33,7 +33,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    background: rgba(54,87,64,0.90);
+    background: rgba(29, 51, 36, 0.9);
 }
 
 .button{
@@ -86,7 +86,7 @@ section.hero{
 }
 
     #herocontent{
-        background-color: rgba(88, 153, 108, 0.5);
+        background-color: rgba(29, 51, 36, 0.5);
         backdrop-filter: blur(10px);
         padding: 20px 5px 20px 5px;
         border-radius: 8px;
@@ -115,7 +115,7 @@ section.services{ background: url("../img/waterfall.webp");}
     }
 
     section.services .servicemodule{
-        background-color: rgba(88, 153, 108, 0.8);
+        background-color: rgba(29, 51, 36, 0.8);
         width: 30%;
         padding: 20px 5px 20px 5px;
         border-radius: 10px;
@@ -130,7 +130,7 @@ section.contact{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #62836A;
+    background: rgb(29, 51, 36);
 }
 
     section.contact div,
