@@ -1,5 +1,9 @@
 @media screen and (max-width: 1270px) {
 
+    nav ul li a{
+        font-size: 0.85em;
+    }
+
     section.hero #herocontent{ margin: 0 100px 0 100px;}
 
     section.about { 
