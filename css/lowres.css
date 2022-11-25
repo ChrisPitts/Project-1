@@ -32,6 +32,14 @@
             font-size: 1.5em;
         }
 
+    #navButton{
+        display: inline;
+    }
+
+    .burgerMenuDisplay{
+        display: inline;
+        animation: fadeLeft 0.5s ease-in forwards;
+    }
 
     section.hero{
         padding: 50px 0px 50px 0px;
@@ -39,10 +47,6 @@
 
     #herocontent{
         margin: 0 20px 0 20px !important;
-    }
-
-    header ul li.navlink{
-        /* display: none; */
     }
 
     #heroCarousel .carousel-item img{
@@ -70,4 +74,15 @@
         margin-bottom: 20px;
     }
 
+    @keyframes fadeLeft {
+        0%{
+            transform: translateX(+300px);
+            opacity: 0;
+        }
+    
+        100%{
+            transform: translateX(0) !important;
+            opacity: 1;
+        }
+    }
 }

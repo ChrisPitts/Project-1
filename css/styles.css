@@ -76,6 +76,16 @@ nav{
         display: none;
     } */
 
+#navButton{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height:50px;
+    z-index: 5;
+}
+
 section{
     width: 100%;
     padding: 20px;
@@ -176,9 +186,3 @@ section.contact{
     }
 }
 
-@media screen and (max-width: 970px){
-    .servicemodule{
-        display: block;
-        width: 70%;
-    }
-}

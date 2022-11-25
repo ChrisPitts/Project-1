@@ -1,5 +1,3 @@
-
-
 function onLoad(event){
     
     let options = {
@@ -30,3 +28,8 @@ function onLoad(event){
 }
 
 window.addEventListener('load', onLoad());
+
+function onBurgerButtonClick()
+{
+    document.querySelector("header").classList.toggle("burgerMenuDisplay");
+}
