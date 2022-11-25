@@ -1,0 +1,5 @@
+As an individual considering installing a sprinkler, I want to read about sprinklers so that I can make an informed decision.
+
+As a business owner, I want to contact Orcas Island Irrigation so that I can meet someone to discuss an installation plan.
+
+As a customer, I want to read about the business owners so that I can understand their background
