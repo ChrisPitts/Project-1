@@ -68,6 +68,11 @@ nav{
         padding:5px;
     }
 
+    nav ul li a:hover{
+        color: #070c09;
+        text-decoration: underline;
+    }
+
     /* nav .burgerbutton{
         display: none;
     } */
