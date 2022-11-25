@@ -8,9 +8,30 @@
         font-size: 1.5em;
     } */
 
-    nav{
+    header{
+        width: 70%;
+        height: 100%;
+        right: 0;
         display: none;
     }
+
+    nav{
+        height: 100%;
+    }
+        nav ul{
+            flex-direction: column;
+            width: 80%;
+            height: 100%;
+        }
+
+        nav ul li.logo{
+            display: none;
+        }
+
+        nav ul li a{
+            font-size: 1.5em;
+        }
+
 
     section.hero{
         padding: 50px 0px 50px 0px;
@@ -21,7 +42,7 @@
     }
 
     header ul li.navlink{
-        display: none;
+        /* display: none; */
     }
 
     #heroCarousel .carousel-item img{
