@@ -72,12 +72,13 @@ nav{
         padding:5px;
     }
 
-<<<<<<< HEAD
+
     nav ul li a.navlink-active{
-=======
+        text-decoration: underline;
+    }
+    
     nav ul li a:hover{
         color: #070c09;
->>>>>>> index
         text-decoration: underline;
     }
 
