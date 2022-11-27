@@ -72,6 +72,10 @@ nav{
         padding:5px;
     }
 
+    nav ul li a.navlink-active{
+        text-decoration: underline;
+    }
+
     /* nav .burgerbutton{
         display: none;
     } */
