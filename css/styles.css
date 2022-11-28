@@ -71,6 +71,10 @@ nav{
         list-style: none;
     }
 
+    nav ul li.navlink-home{
+        display: none;
+    }
+
     nav ul li a{
         text-decoration: none;
         color: #FFFFFF;
@@ -213,7 +217,7 @@ section.residential-paragraph{
 
 section.gallery{
     padding: 20px;
-    display: grid;
+    /* display: grid; */
     justify-content: space-evenly;
     justify-items: center;
     align-items: center;

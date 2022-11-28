@@ -24,6 +24,10 @@
             height: 100%;
         }
 
+        nav ul li.navlink-home{
+            display: inline;
+        }
+
         nav ul li.logo{
             display: none;
         }
