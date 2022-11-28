@@ -195,3 +195,22 @@ section.contact{
     }
 }
 
+/* RESIDENTIAL */
+
+section.residential-paragraph{
+    padding: 100px 60px 20px 60px;
+}
+
+section.gallery{
+    padding: 20px;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+}
+
+section.gallery img{
+    margin: 20px;
+}
+
