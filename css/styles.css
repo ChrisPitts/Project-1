@@ -8,6 +8,11 @@ BACKGROUND COLORS
 
 TEXT COLORS
 */
+.frostedglass{
+    background-color: rgba(29, 51, 36, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
 
 body{
     text-align: center;
@@ -16,6 +21,7 @@ body{
     color: rgb(200, 200, 200);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2em;
+    background: #193b22;
 }
 
 h1, h2, h3{ font-weight: bold;}
@@ -199,18 +205,24 @@ section.contact{
 
 section.residential-paragraph{
     padding: 100px 60px 20px 60px;
+    background: url('../img/background-dirt.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -200px;
 }
 
 section.gallery{
     padding: 20px;
     display: grid;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-items: center;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr); 
     width: 100%;
 }
 
 section.gallery img{
     margin: 20px;
+    width: 350px;
 }
 
